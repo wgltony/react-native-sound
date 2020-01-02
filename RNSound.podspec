@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source              = { :git => 'https://github.com/zmxv/react-native-sound.git', :tag => "v#{s.version}" }
   s.default_subspec     = 'Core'
   s.requires_arc        = true
-  s.platform            = :ios, "7.0"
+  s.platform            = :ios, "8.0"
 
   s.dependency 'React'
 
